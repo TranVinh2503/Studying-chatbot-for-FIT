@@ -1,0 +1,262 @@
+intents:
+- greet
+- goodbye
+- ask_education_program_information_technology_calculus_course_code
+- ask_education_program_information_technology_calculus_prerequisite
+- ask_education_program_information_technology_calculus_is_prerequisite_courses
+- ask_education_program_information_technology_calculus_name_of_unit_in_charge_of_teaching
+- ask_education_program_information_technology_calculus_number_of_credits
+- ask_education_program_information_technology_calculus_number_of_credit_hours
+- ask_education_program_information_technology_calculus_course_type
+- ask_education_program_information_technology_calculus_course_instructor_info
+- ask_education_program_information_technology_calculus_objective_of_course
+- ask_education_program_information_technology_calculus_course_structure
+- ask_education_program_information_technology_calculus_teaching_and_learning_methods_and_activities
+- ask_education_program_information_technology_calculus_subject_assessment_methods
+- ask_education_program_information_technology_calculus_duties_of_the_learner
+- ask_education_program_information_technology_calculus_additional_reading_materials
+- ask_education_program_information_technology_discrete_mathematics_course_code
+- ask_education_program_information_technology_discrete_mathematics_prerequisite
+- ask_education_program_information_technology_discrete_mathematics_is_prerequisite_courses
+- ask_education_program_information_technology_discrete_mathematics_name_of_unit_in_charge_of_teaching
+- ask_education_program_information_technology_discrete_mathematics_number_of_credits
+- ask_education_program_information_technology_discrete_mathematics_number_of_credit_hours
+- ask_education_program_information_technology_discrete_mathematics_course_type
+- ask_education_program_information_technology_discrete_mathematics_course_instructor_info
+- ask_education_program_information_technology_discrete_mathematics_objective_of_course
+- ask_education_program_information_technology_discrete_mathematics_course_structure
+- ask_education_program_information_technology_discrete_mathematics_teaching_and_learning_methods_and_activities
+- ask_education_program_information_technology_discrete_mathematics_subject_assessment_methods
+- ask_education_program_information_technology_discrete_mathematics_duties_of_the_learner
+- ask_education_program_information_technology_discrete_mathematics_additional_reading_materials
+- ask_education_program_multimedia_communications_general_objective
+  - ask_education_program_multimedia_communications_detail_objective
+  - ask_education_program_multimedia_communications_job_position_after_completing_the_training_program
+  - ask_education_program_multimedia_communications_output_standards
+  - ask_education_program_multimedia_communications_the_amount_of_knowledge_of_the_entire_course
+  - ask_education_program_multimedia_communications_training time
+  - ask_education_program_multimedia_communications_the_training_process_and_graduation_conditions
+  - ask_education_program_multimedia_communications_evaluation_methods
+  - ask_education_program_multimedia_communications_structure_of_the_curriculum
+  - ask_education_program_multimedia_communications_program_implementation_guide
+  - ask_education_program_multimedia_communications_principles_of_computers_course_code
+  - ask_education_program_multimedia_communications_principles_of_computers_is_prerequisite_courses
+  - ask_education_program_multimedia_communications_principles_of_computers_name_of_unit_in_charge_of_teaching
+  - ask_education_program_multimedia_communications_principles_of_computers_number_of_cresits
+  - ask_education_program_multimedia_communications_principles_of_computers_number_of_credit_hours
+  - ask_education_program_multimedia_communications_principles_of_computers_course_type
+  - ask_education_program_multimedia_communications_principles_of_computers_course_instructor_info
+  - ask_education_program_multimedia_communications_principles_of_computers_objective_of_course
+  - ask_education_program_multimedia_communications_principles_of_computers_course_structure
+  - ask_education_program_multimedia_communications_principles_of_computers_teaching_and_learning_methods_and_activities
+  - ask_education_program_multimedia_communications_principles_of_computers_subject_assessment_methods
+  - ask_education_program_multimedia_communications_principles_of_computers_duties_of_the_learner
+  - ask_education_program_multimedia_communications_principles_of_computers_additional_reading_materials
+  - ask_education_program_multimedia_communications_computer_graphics_1_course_code
+  - ask_education_program_multimedia_communications_computer_graphics_1_is_prerequisite_courses
+  - ask_education_program_multimedia_communications_computer_graphics_1_name_of_unit_in_charge_of_teaching
+  - ask_education_program_multimedia_communications_computer_graphics_1_number_of_cresits
+  - ask_education_program_multimedia_communications_computer_graphics_1_number_of_credit_hours
+  - ask_education_program_multimedia_communications_computer_graphics_1_course_type
+  - ask_education_program_multimedia_communications_computer_graphics_1_course_instructor_info
+  - ask_education_program_multimedia_communications_computer_graphics_1_objective_of_course
+  - ask_education_program_multimedia_communications_computer_graphics_1_course_structure
+  - ask_education_program_multimedia_communications_computer_graphics_1_teaching_and_learning_methods_and_activities
+  - ask_education_program_multimedia_communications_computer_graphics_1_subject_assessment_methods
+  - ask_education_program_multimedia_communications_computer_graphics_1_duties_of_the_learner
+  - ask_education_program_multimedia_communications_computer_graphics_1_additional_reading_materials
+  - ask_education_program_multimedia_communications_programming_2_course_code
+  - ask_education_program_multimedia_communications_programming_2_is_prerequisite_courses
+  - ask_education_program_multimedia_communications_programming_2_name_of_unit_in_charge_of_teaching
+  - ask_education_program_multimedia_communications_programming_2_number_of_cresits
+  - ask_education_program_multimedia_communications_programming_2_number_of_credit_hours
+  - ask_education_program_multimedia_communications_programming_2_course_type
+  - ask_education_program_multimedia_communications_programming_2_course_instructor_info
+  - ask_education_program_multimedia_communications_programming_2_objective_of_course
+  - ask_education_program_multimedia_communications_programming_2_course_structure
+- ask_education_program_multimedia_communications_programming_2_teaching_and_learning_methods_and_activities
+- ask_education_program_multimedia_communications_programming_2_subject_assessment_methods
+- ask_education_program_multimedia_communications_programming_2_duties_of_the_learner
+- ask_education_program_multimedia_communications_programming_2_additional_reading_materials
+
+responses:
+  utter_greet:
+  - text: "How can we assist you?"
+  - text: "Hello! Let us know what you need support with."
+  - text: "Hi there! We're here to help you. What do you need?"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_ask_education_program_information_technology_calculus_additional_reading_materials:
+  - text: 'Primary Materials: - David C. Lay, Steven R. Lay, Judi J. McDonald (2016),
+      Linear Algebra and Its Applications, 5th Ed., USA: Pearson. - H. Anton, I. Bivens,
+      S. Davis (2009), Calculus - Early Transcendentals, 9th Ed., MA, USA: John Wiley
+      & Sons, Inc.
+
+      Reference Materials: - Larson Edwards (2006), Calculus an applied approach seventh
+      edition, Houghton Mifflin Company in New York. - H. Anton, Chriss Rorres (2010),
+      Elementary Linear Algebra, 11th Ed, USA: John Wiley & Sons, Inc.'
+  utter_ask_education_program_information_technology_calculus_course_code:
+  - text: The course code of Calculus is xxFIT2CAL.
+  utter_ask_education_program_information_technology_calculus_course_instructor_info:
+  - text: 'The instructors for this course are: - MSc Nguyen Thi Kim Son, email: sonntk@hanu.edu.vn
+      - MSc Nguyen Thi Huong, email: nthuong@hanu.edu.vn'
+  utter_ask_education_program_information_technology_calculus_course_structure:
+  - text: "1. Linear Equations and Matrix Algebra - Linear equations and matrices\
+      \ - Matrix operations - Inverse matrices - Matrix analysis\n2. Determinants\
+      \ - Introduction to determinants - Properties of determinants - Cramer's rule,\
+      \ cofactors, and linear transformations\n3. Vector Spaces - Vector spaces and\
+      \ subspaces - Null space, column space, and linear transformations - Linearly\
+      \ independent sets - Dimension of a vector space - Rank\n4. Orthogonality and\
+      \ Least Squares - Eigenvalues and eigenvectors - Diagonalization - Orthogonal\
+      \ sets and orthogonal projection - Gram-Schmidt process - Least squares problems\n\
+      5. Symmetric Matrices and Quadratic Forms - Diagonalization of symmetric matrices\
+      \ - Quadratic forms - Constrained optimization - Singular value decomposition\n\
+      6. Midterm Examination\n7. Limits and Continuity - Definition of limits for\
+      \ a function - Properties of limits - Indeterminate forms and limits at infinity\
+      \ - One-sided limits - Continuity of functions\n8. Differentiation - Derivatives\
+      \ and higher-order derivatives - Implicit differentiation - Related rates -\
+      \ Differentiation and linear approximation - L'H\xF4pital's Rule\n9. Integration\
+      \ and its Applications - Evaluating integrals using substitution - Integration\
+      \ by parts - Fundamental Theorem of Calculus - Mean value theorem and applications\
+      \ - Applications of integration\n10. Differential Equations - Introduction to\
+      \ differential equations - Modeling using differential equations - Separation\
+      \ of variables - First-order linear differential equations\n11. Review Session\n\
+      12. Final Examination"
+  utter_ask_education_program_information_technology_calculus_course_type:
+  - text: Calculus is a mandatory course.
+  utter_ask_education_program_information_technology_calculus_duties_of_the_learner:
+  - text: 'Learner''s Responsibilities: - Demonstrate a commitment to research, pre-read
+      materials before class. - Establish a timetable, distribute study time effectively.
+      - Participate actively in class activities, focus on listening to lectures,
+      take notes, practice, and engage in self-directed learning. - Synthesize core
+      knowledge, summarize, and systematize the learned material. - Efficiently collaborate
+      in group work, participate in team activities. - Actively engage in discussions
+      with teachers and peers. - Self-study following the guidance provided by the
+      lecturer.'
+  utter_ask_education_program_information_technology_calculus_is_prerequisite_courses:
+  - text: 'Yes, Calculus is the prerequisite course of the following course: Probability
+      and Statistics.'
+  utter_ask_education_program_information_technology_calculus_name_of_unit_in_charge_of_teaching:
+  - text: The unit in charge of teaching Calculus is Faculty of Information Technology.
+  utter_ask_education_program_information_technology_calculus_number_of_credit_hours:
+  - text: Calculus is delivered over 150 credit hours, comprising 30 hours of theoretical
+      instruction, 30 hours of practical application, and 90 hours designated for
+      self-study.
+  utter_ask_education_program_information_technology_calculus_number_of_credits:
+  - text: Calculus is equivalent to 3 credits.
+  utter_ask_education_program_information_technology_calculus_objective_of_course:
+  - text: 'The objective of this course is to equip learners with fundamental knowledge
+      of algebra, calculus, and their practical applications in real-world problems.
+      This aims to enable learners to comprehend and correctly apply problem-solving
+      methods, establish mathematical models for efficiently addressing real-life
+      issues with precision.
+
+      Upon completion, students should be able to: - Explain fundamental concepts
+      related to linear algebra and their applications. - Explain fundamental concepts
+      related to calculus and their applications. - Solve problems in linear algebra,
+      including matrix operations, determinants, linear systems, and vector spaces.
+      - Perform calculations involving derivatives, limits, differentials, and integrals
+      of functions, alongside solving real-world application problems.'
+  utter_ask_education_program_information_technology_calculus_prerequisite:
+  - text: No, Calculus doesn't require any prerequisites.
+  utter_ask_education_program_information_technology_calculus_subject_assessment_methods:
+  - text: 'Attendance Assessment: - Attendance, checking the results of assigned learning
+      tasks. - Weight: 10%
+
+      Regular Assessment: - Midterm Exam (Paper-based exam): Assessing acquired knowledge
+      and skills. - Weight: 30%
+
+      End-of-Course Assessment: - Final Exam (Paper-based exam): Evaluating accumulated
+      knowledge and skills. - Weight: 60%'
+  utter_ask_education_program_information_technology_calculus_teaching_and_learning_methods_and_activities:
+  - text: 'Lecturer: - Present the content of the knowledge. - Analyze and evaluate
+      the knowledge. - Connect and systematize the knowledge. - Answer students''
+      questions. - Assign homework. - Grade homework. - Summarize and evaluate.
+
+      Students: - Listen to lectures, answer questions from the lecturer. - Take notes.
+      - Complete practice exercises. - Do assignments as required by the lecturer.
+      - Present the results.'
+  utter_ask_education_program_information_technology_discrete_mathematics_additional_reading_materials:
+  - text: 'Primary Materials: - Kenneth H. Rosen, (2012), Discrete Mathematics and
+      its Applications, 7th Edition, McGraw-Hill, Inc.
+
+      Reference Materials: - Susanna S. Epp, (2010), Discrete Mathematics with Applications,
+      4th Edition, Brooks-Cole, Cengage-Learning.'
+  utter_ask_education_program_information_technology_discrete_mathematics_course_code:
+  - text: The course code of Discrete Mathematics is xxFIT2DMA.
+  utter_ask_education_program_information_technology_discrete_mathematics_course_instructor_info:
+  - text: 'The instructors for this course are: - PhD Ta Quang Hung, email: hta@hanu.edu.vn
+      - MSc Nguyen Thi Huong, email: nthuong@hanu.edu.vn'
+  utter_ask_education_program_information_technology_discrete_mathematics_course_structure:
+  - text: 1. Propositional Logic 2. Proof Techniques 3. Induction and Recursion 4.
+      Set Theory 5. Modular Arithmetic 6. Number Theory 7. Polynomials 8. Midterm
+      Exam 9. Error Correction Codes 10. Graph Theory 11. Trees 12. Guest Lecture
+      13. Review Session 14. Final Exam
+  utter_ask_education_program_information_technology_discrete_mathematics_course_type:
+  - text: Discrete Mathematics is a mandatory course.
+  utter_ask_education_program_information_technology_discrete_mathematics_duties_of_the_learner:
+  - text: 'Learner''s Responsibilities: - Demonstrate a commitment to research, pre-read
+      materials before class. - Establish a timetable, distribute study time effectively.
+      - Participate actively in class activities, focus on listening to lectures,
+      take notes, practice, and engage in self-directed learning. - Synthesize core
+      knowledge, summarize, and systematize the learned material. - Efficiently collaborate
+      in group work, participate in team activities. - Actively engage in discussions
+      with teachers and peers. - Self-study following the guidance provided by the
+      lecturer.'
+  utter_ask_education_program_information_technology_discrete_mathematics_is_prerequisite_courses:
+  - text: 'Yes, Discrete Mathematics is the prerequisite course of the following course:
+      Artificial Intelligence.'
+  utter_ask_education_program_information_technology_discrete_mathematics_name_of_unit_in_charge_of_teaching:
+  - text: The unit in charge of teaching Discrete Mathematics is Faculty of Information
+      Technology.
+  utter_ask_education_program_information_technology_discrete_mathematics_number_of_credit_hours:
+  - text: Discrete Mathematics is delivered over 150 credit hours, comprising 30 hours
+      of theoretical instruction, 30 hours of practical application, and 90 hours
+      designated for self-study.
+  utter_ask_education_program_information_technology_discrete_mathematics_number_of_credits:
+  - text: Discrete Mathematics is equivalent to 3 credits.
+  utter_ask_education_program_information_technology_discrete_mathematics_objective_of_course:
+  - text: 'The course aims to impart fundamental knowledge of discrete mathematics,
+      covering permutations, combinations, number theory, propositions, and graph
+      theory, with practical applications in real-world problem-solving. Upon completion,
+      students should: - Explain key concepts in discrete mathematics, including permutations,
+      combinations, number theory, propositions, and graph theory. - Demonstrate an
+      understanding of applying discrete mathematics in real-world problem-solving,
+      such as error correction in communication, cryptography, and programming.
+
+      Assessment Criteria: - Present counting in combinatorics. - Understand and apply
+      logical propositions, using methods like direct proof and induction. - Comprehend
+      basic number theory concepts, including groups, rings, fields, and modular arithmetic.
+      - Apply graph theory in problem-solving.
+
+      Learning Outcomes: - Solve discrete problems related to combinations, logical
+      propositions, number theory, and graphs. - Apply discrete mathematics knowledge
+      to real-world problems in cryptography, error correction, programming, etc.'
+  utter_ask_education_program_information_technology_discrete_mathematics_prerequisite:
+  - text: No, Discrete Mathematics doesn't require any prerequisites.
+  utter_ask_education_program_information_technology_discrete_mathematics_subject_assessment_methods:
+  - text: 'Attendance Assessment: - Attendance, checking the results of assigned learning
+      tasks. - Weight: 10%
+
+      Regular Assessment: - Midterm Exam (Paper-based exam_ Multiple choice questions):
+      Assessing acquired knowledge and skills. - Weight: 30%
+
+      End-of-Course Assessment: - Final Exam (Paper-based exam_ Multiple choice questions):
+      Evaluating accumulated knowledge and skills. - Weight: 60%'
+  utter_ask_education_program_information_technology_discrete_mathematics_teaching_and_learning_methods_and_activities:
+  - text: 'Lecturer: - Present the content of the knowledge. - Analyze and evaluate
+      the knowledge. - Connect and systematize the knowledge. - Answer students''
+      questions. - Assign homework. - Grade homework. - Summarize and evaluate. -
+      Facilitate group formation. - Provide topic suggestions. - Supervise group activities.
+
+      Students: - Listen to lectures, answer questions from the lecturer. - Take notes.
+      - Complete practice exercises. - Do assignments as required by the lecturer.
+      - Present the results. - Engage in group activities. - Choose a project topic.
+      - Present the group''s results.'
+      
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60
+version: '3.1'

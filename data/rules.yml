@@ -1,0 +1,114 @@
+version: "3.1"
+rules:
+  - rule: Respond to course code of calculus
+    steps:
+      - intent: ask_education_program_information_technology_calculus_course_code
+      - action: utter_ask_education_program_information_technology_calculus_course_code
+  - rule: Respond to calculus's prerequisite
+    steps:
+      - intent: ask_education_program_information_technology_calculus_prerequisite
+      - action: utter_ask_education_program_information_technology_calculus_prerequisite
+  - rule: Respond to calculus is prerequisite
+    steps:
+      - intent: ask_education_program_information_technology_calculus_is_prerequisite_courses
+      - action: utter_ask_education_program_information_technology_calculus_is_prerequisite_courses
+  - rule: Respond to calculus's unit of teaching
+    steps:
+      - intent: ask_education_program_information_technology_calculus_name_of_unit_in_charge_of_teaching
+      - action: utter_ask_education_program_information_technology_calculus_name_of_unit_in_charge_of_teaching
+  - rule: Respond to calculus's number of credits
+    steps:
+      - intent: ask_education_program_information_technology_calculus_number_of_credits
+      - action: utter_ask_education_program_information_technology_calculus_number_of_credits
+  - rule: Respond to calculus's number of credit hours
+    steps:
+      - intent: ask_education_program_information_technology_calculus_number_of_credit_hours
+      - action: utter_ask_education_program_information_technology_calculus_number_of_credit_hours
+  - rule: Respond to calculus's course type
+    steps:
+      - intent: ask_education_program_information_technology_calculus_course_type
+      - action: utter_ask_education_program_information_technology_calculus_course_type
+  - rule: Respond to calculus's instructor
+    steps:
+      - intent: ask_education_program_information_technology_calculus_course_instructor_info
+      - action: utter_ask_education_program_information_technology_calculus_course_instructor_info
+  - rule: Respond to calculus's objective
+    steps:
+      - intent: ask_education_program_information_technology_calculus_objective_of_course
+      - action: utter_ask_education_program_information_technology_calculus_objective_of_course
+  - rule: Respond to calculus's structure
+    steps:
+      - intent: ask_education_program_information_technology_calculus_course_structure
+      - action: utter_ask_education_program_information_technology_calculus_course_structure
+  - rule: Respond to calculus's learning methods and activities
+    steps:
+      - intent: ask_education_program_information_technology_calculus_teaching_and_learning_methods_and_activities
+      - action: utter_ask_education_program_information_technology_calculus_teaching_and_learning_methods_and_activities
+  - rule: Respond to calculus's assessment methods
+    steps:
+      - intent: ask_education_program_information_technology_calculus_subject_assessment_methods
+      - action: utter_ask_education_program_information_technology_calculus_subject_assessment_methods
+  - rule: Respond to calculus's learner's duties
+    steps:
+      - intent: ask_education_program_information_technology_calculus_duties_of_the_learner
+      - action: utter_ask_education_program_information_technology_calculus_duties_of_the_learner
+  - rule: Respond to calculus's materials
+    steps:
+      - intent: ask_education_program_information_technology_calculus_additional_reading_materials
+      - action: utter_ask_education_program_information_technology_calculus_additional_reading_materials
+  - rule: Respond to course code of discrete mathematics
+    steps:
+      - intent: ask_education_program_information_technology_discrete_mathematics_course_code
+      - action: utter_ask_education_program_information_technology_discrete_mathematics_course_code
+  - rule: Respond to discrete mathematics's prerequisite
+    steps:
+      - intent: ask_education_program_information_technology_discrete_mathematics_prerequisite
+      - action: utter_ask_education_program_information_technology_discrete_mathematics_prerequisite
+  - rule: Respond to discrete mathematics is prerequisite
+    steps:
+      - intent: ask_education_program_information_technology_discrete_mathematics_is_prerequisite_courses
+      - action: utter_ask_education_program_information_technology_discrete_mathematics_is_prerequisite_courses
+  - rule: Respond to discrete mathematics's unit of teaching
+    steps:
+      - intent: ask_education_program_information_technology_discrete_mathematics_name_of_unit_in_charge_of_teaching
+      - action: utter_ask_education_program_information_technology_discrete_mathematics_name_of_unit_in_charge_of_teaching
+  - rule: Respond to discrete mathematics's number of credits
+    steps:
+      - intent: ask_education_program_information_technology_discrete_mathematics_number_of_credits
+      - action: utter_ask_education_program_information_technology_discrete_mathematics_number_of_credits
+  - rule: Respond to discrete mathematics's number of credit hours
+    steps:
+      - intent: ask_education_program_information_technology_discrete_mathematics_number_of_credit_hours
+      - action: utter_ask_education_program_information_technology_discrete_mathematics_number_of_credit_hours
+  - rule: Respond to discrete mathematics's course type
+    steps:
+      - intent: ask_education_program_information_technology_discrete_mathematics_course_type
+      - action: utter_ask_education_program_information_technology_discrete_mathematics_course_type
+  - rule: Respond to discrete mathematics's instructor
+    steps:
+      - intent: ask_education_program_information_technology_discrete_mathematics_course_instructor_info
+      - action: utter_ask_education_program_information_technology_discrete_mathematics_course_instructor_info
+  - rule: Respond to discrete mathematics's objective
+    steps:
+      - intent: ask_education_program_information_technology_discrete_mathematics_objective_of_course
+      - action: utter_ask_education_program_information_technology_discrete_mathematics_objective_of_course
+  - rule: Respond to discrete mathematics's structure
+    steps:
+      - intent: ask_education_program_information_technology_discrete_mathematics_course_structure
+      - action: utter_ask_education_program_information_technology_discrete_mathematics_course_structure
+  - rule: Respond to discrete mathematics's learning methods and activities
+    steps:
+      - intent: ask_education_program_information_technology_discrete_mathematics_teaching_and_learning_methods_and_activities
+      - action: utter_ask_education_program_information_technology_discrete_mathematics_teaching_and_learning_methods_and_activities
+  - rule: Respond to discrete mathematics's assessment methods
+    steps:
+      - intent: ask_education_program_information_technology_discrete_mathematics_subject_assessment_methods
+      - action: utter_ask_education_program_information_technology_discrete_mathematics_subject_assessment_methods
+  - rule: Respond to discrete mathematics's learner's duties
+    steps:
+      - intent: ask_education_program_information_technology_discrete_mathematics_duties_of_the_learner
+      - action: utter_ask_education_program_information_technology_discrete_mathematics_duties_of_the_learner
+  - rule: Respond to discrete mathematics's materials
+    steps:
+      - intent: ask_education_program_information_technology_discrete_mathematics_additional_reading_materials
+      - action: utter_ask_education_program_information_technology_discrete_mathematics_additional_reading_materials
